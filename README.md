@@ -14,8 +14,8 @@ output: A list of SCC sort by the size of single SCC.
 example:
 
 input
-[1, 0, 0]
 
+[1, 0, 0] \n
 [1, 0, 1]
 
 [0, 1, 1]
