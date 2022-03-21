@@ -1,6 +1,9 @@
 # Multithreaded Server
 
 ## Main Purpose:
+A server that can perform algorithmic operations depending on the type of task received.
+The operations and treatment of clients on the server are performed in parallel.
+The project uses Multithreading, Design Oriented Object.
 
 ## Four algorithmic tasks:
 
@@ -12,7 +15,9 @@ example:
 
 input
 [1, 0, 0]
+
 [1, 0, 1]
+
 [0, 1, 1]
 
 output: [(0,0), (1,0), (1,2), (2,1), (2,2)]
@@ -25,7 +30,9 @@ example:
 
 input:
 [1, 1, 0]
+
 [1, 0, 1]
+
 [0, 1, 1]
 
 output: [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]
@@ -43,7 +50,9 @@ example:
 
 input:
 [1, 1, 0, 1, 1]
+
 [0, 0, 0, 1, 1]
+
 [1, 1, 0, 1, 1]
 
 output: 3
@@ -56,7 +65,9 @@ example:
 
 input:
 [100, 100, 100]
+
 [500, 900, 300]
+
 source node - (1,0)
 destination node - (1, 2)
 
