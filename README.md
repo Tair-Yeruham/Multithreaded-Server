@@ -44,10 +44,11 @@ output: [[(0, 0), (1, 0), (2,1), (2,2)], [(0, 0), (0, 1), (1, 2), (2, 2)]]
 input- 2D array of int
 output- number of proper submarine
 rules:
-1.At least two "1" in vertical.
-2.At least two "1" in horizontal.
-3.Cannot be two "1" in diagonal unless for both sections 1 and 2 are met.
-4.The minimum distance between two submarines is one slot.
+
+ 1.At least two "1" in vertical.
+ 2.At least two "1" in horizontal.
+ 3.Cannot be two "1" in diagonal unless for both sections 1 and 2 are met.
+ 4.The minimum distance between two submarines is one slot.
 example:
 
 input:
