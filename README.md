@@ -15,7 +15,8 @@ example:
 
 input
 
-[1, 0, 0] \n
+[1, 0, 0] 
+
 [1, 0, 1]
 
 [0, 1, 1]
@@ -29,6 +30,7 @@ output- A list of the shortest paths source node and destination node.
 example:
 
 input:
+
 [1, 1, 0]
 
 [1, 0, 1]
@@ -49,6 +51,7 @@ rules:
 example:
 
 input:
+
 [1, 1, 0, 1, 1]
 
 [0, 0, 0, 1, 1]
@@ -64,6 +67,7 @@ output- list of the simplest paths.
 example:
 
 input:
+
 [100, 100, 100]
 
 [500, 900, 300]
